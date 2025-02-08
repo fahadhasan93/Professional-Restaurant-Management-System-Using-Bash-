@@ -1,24 +1,49 @@
-Here’s a structured and detailed markdown file for your project:
+Here’s the markdown file for the **Professional Restaurant Management System** project, following the style of the example you provided:
 
 ```markdown
-# Fast Food Restaurant Admin Panel
+# Professional Restaurant Management System
 
-A Bash-based Admin Panel for managing menu items, processing orders, and calculating prices for a fast food restaurant. This project allows users to interactively select menu items, specify quantities, and calculate the total price of their order.
+1. **Overview**  
+This project implements a **Professional Restaurant Management System** for streamlining menu management, order processing, and billing. Designed for fast food restaurants, the system provides an interactive Bash-based admin panel where users can select menu items, specify quantities, and calculate the total cost of their orders.
 
----
+2. **Features**  
+✅ Intuitive menu system with item numbers, sizes, and pricing.  
+✅ Interactive order placement and processing interface.  
+✅ Error handling for invalid inputs.  
+✅ Automatic price calculation based on size and quantity.  
+✅ Lightweight and fast implementation using Bash scripting.
 
-## Features
+3. **Technologies Used**  
+- **Programming Language**: Bash scripting  
+- **Development Tools**: Visual Studio Code, GitHub  
+- **Testing Environment**: Unix/Linux Terminal
 
-- **Menu Management**: View a detailed menu with item numbers, sizes, and prices.
-- **Order Processing**: Choose items, specify sizes and quantities, and calculate the total price interactively.
-- **Error Handling**: Provides warnings and prompts for invalid inputs.
-- **User-Friendly Interface**: Simple, text-based interface that’s easy to navigate.
+4. **Installation & Usage**  
+### 4.1 Running the Project Locally  
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/fahadhasan93/Professional-Restaurant-Management-System.git
+   cd Professional-Restaurant-Management-System
+   ```
+2. Run the script:  
+   ```bash
+   bash restaurant_management.sh
+   ```
+3. Follow the on-screen prompts to place an order.
 
----
+### 4.2 Example Usage  
+- Start the program:  
+  ```bash
+  _____________________________Welcome TO PROFESSIONAL RESTAURANT MANAGEMENT SYSTEM______________________________
+  ```
+- Select a food item and specify size/quantity. Example:  
+  - Input: `1` for Chicken Pot Pie  
+  - Select size: `6 inches`  
+  - Specify quantity: `2`  
+  - Output: **Total Price: 300 Tk**
 
-## Menu Items
-
-The application supports the following items:
+5. **Menu Items**  
+The system supports a variety of menu items with different sizes and prices.  
 
 | Item No | Food Name          | Size                  | Price (Tk)                   |
 |---------|--------------------|-----------------------|------------------------------|
@@ -33,98 +58,22 @@ The application supports the following items:
 | 9       | French Fries       | 150/200/250/300 g     | 50/70/100/130 Tk             |
 | 10      | Bread Sticks       | 150/200/250/350 g     | 70/100/120/170 Tk            |
 
----
+6. **Limitations**  
+❌ Supports only pre-defined menu items.  
+❌ Requires manual input for size and quantity selection.  
+❌ No persistent data storage for orders or sales records.
 
-## Usage Instructions
+7. **Future Improvements**  
+🔹 Add support for saving order history to a database.  
+🔹 Integrate discount coupons and promotional codes.  
+🔹 Improve the user interface with a GUI-based implementation.  
+🔹 Add multi-language support for broader usability.  
 
-1. **Run the Script**:
-   - Open your terminal.
-   - Navigate to the directory containing the script.
-   - Execute the script using: `bash fast_food_admin_panel.sh`.
+8. **License**  
+This project is licensed under the MIT License.
 
-2. **Choose an Option**:
-   - The program starts with a welcome message and displays the menu.
-   - Input `1` to start an order, or `2` to exit.
-
-3. **Place an Order**:
-   - Enter your name.
-   - Select an item from the menu by entering the corresponding item number.
-   - Choose the size and specify the quantity.
-   - The total price will be calculated and displayed.
-
-4. **Repeat or Exit**:
-   - After completing an order, you can choose to place another order or exit the program.
-
----
-
-## Example Workflow
-
-1. Start the program:
-   ```
-   _____________________________Welcome TO FAST FOOD RESTAURANT ADMIN PANEL______________________________
-   ```
-2. View the menu and input the desired item number:
-   ```
-   please choose the food item: 1
-   ```
-3. Follow prompts to specify size and quantity:
-   ```
-   Here is our Chicken Pot Pie list:
-   ITEM_NO________SIZE________PRICE
-   1           6 inches     150 tk
-   2           8 inches     170 tk
-   ...
-   ```
-4. View the calculated price and continue or exit.
-
----
-
-## Technologies Used
-
-- **Shell Scripting**: Written entirely in Bash for Linux/Unix-based systems.
-
----
-
-## Future Enhancements
-
-- Add support for discounts and promotional codes.
-- Integrate inventory management to track available stock.
-- Expand the menu with customizable options.
-- Implement a database to save order history.
-
----
-
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork this repository.
-2. Create a new branch: `git checkout -b feature-name`.
-3. Commit your changes: `git commit -m "Add feature-name"`.
-4. Push to the branch: `git push origin feature-name`.
-5. Submit a pull request.
-
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## Contact
-
-If you have any questions or feedback, feel free to reach out.
-
-**Author**: Md. Fahad Hasan  
-**Email**: fahadhasan1511@gmail.com  
-**GitHub**: [fahadhasan93](https://github.com/fahadhasan93)
-
----
-
-## Acknowledgments
-
-Special thanks to all contributors and testers who helped improve the functionality of this project.
+9. **Contact**  
+📧 Email: fahadhasan1511@gmail.com  
+🔗 GitHub: [fahadhasan93](https://github.com/fahadhasan93/Professional-Restaurant-Management-System)
 ```
 
-Save this as `README.md` in the root directory of your project before uploading to GitHub. Let me know if you'd like additional edits!
